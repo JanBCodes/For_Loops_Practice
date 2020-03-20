@@ -1,0 +1,24 @@
+<script>
+/*
+Develop a program that will prompt the user to enter  6 numbers and then,
+print the number of positive numbers and the sum of negative numbers in the set.
+
+*/
+
+start_yr=parseInt(prompt(`Please enter starting year`));
+end_yr=parseInt(prompt(`Please enter ending year`));
+
+display="";
+
+for (i=start_yr; i<=end_yr; i++)
+{	
+	if(i % 4 == 0)
+    {
+    	 display+= `${i} is a leap year \n`;
+    }
+
+}
+
+alert(display);
+
+</script>
