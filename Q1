@@ -1,0 +1,10 @@
+<script>
+/*
+Develop a program that will output the line of text “I love Programming”, 10 times.
+*/
+
+for (i=1; i<=10; i++)
+{
+	alert(`I love Programming`) 
+}
+</script>
