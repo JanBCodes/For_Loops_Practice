@@ -1,0 +1,15 @@
+<script>
+/*
+Develop a program that will output the seven times table you must use a for loop, as follows:
+1 x 7 = 7
+2 x 7 = 14
+3 x 7 = 21 . . .
+
+*/
+
+for (i=1; i<=12; i++)
+{	
+	answer=i*7
+	alert(`${i} x 7 = ${answer}`) 
+}
+</script>
