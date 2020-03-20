@@ -1,0 +1,15 @@
+<script>
+/*
+Develop a program that will ask the user for a value and then print out the tables for the inputted value.
+
+*/
+
+let times_table=parseInt(prompt(`Enter a times table you'd like to seee`));
+
+for (i=1; i<=12; i++)
+{	
+	
+	answer=(i)*times_table;
+	alert(`${i} x ${times_table} = ${answer}`);
+}
+</script>
