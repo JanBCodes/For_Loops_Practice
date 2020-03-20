@@ -1,0 +1,26 @@
+<script>
+/*
+Develop a program using a FOR loop to print a conversion table showing values in miles 
+and the corresponding values in kilometers for mile values ranging from 1 to 25. 
+Please note that 1 mile = 1.61 km. A sample output should read as follows:
+
+Miles               	          	Kilometres
+1                                     1.61
+2                                     3.22
+25                    	   			 40.25 	
+
+*/
+
+display="Miles \t  KM\n";
+
+for (i=1;i<=25;i++)
+{	
+	let mile=1.61
+  let km=i*mile
+   
+   display+= `${i} \t ${km.toFixed(2)}\n`;
+}
+
+alert(display);
+
+</script>
